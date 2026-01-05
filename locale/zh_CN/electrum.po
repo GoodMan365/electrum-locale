@@ -748,7 +748,7 @@ msgstr "自动检查软件更新"
 msgid "Automatically freeze coins received to already used addresses.\n"
 "This can eliminate a serious privacy issue where a malicious user can track your spends by sending small payments\n"
 "to a previously-paid address of yours that would then be included with unrelated inputs in your future payments."
-msgstr "\n"
+msgstr "自动冻结已收到的加密货币到已使用的地址。\n"
 "这可以消除一个严重的隐私问题。恶意用户可以通过向您以前支付过的接收地址发送小额付款\n"
 "来跟踪您的花费，而这些付款会在你未来的付款中与无关的交易输入一起被包含在内。"
 

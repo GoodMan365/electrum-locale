@@ -7315,7 +7315,7 @@ msgstr ""
 
 #: electrum/gui/qt/main_window.py:2039
 msgid "Warning: this wallet type does not support channel recovery from seed. You will need to backup your wallet every time you create a new channel. Create lightning keys?"
-msgstr "Brīdinājums: šis maciņa veids neatbalsta kanālu atkopšanu no sēklas. Jums būs jāizveido maciņa rezerves kopija katru reizi, kad veidojat jaunu kanālu. Vai izveidot Lightning atslēgas?\n"
+msgstr "Brīdinājums: šis maciņa veids neatbalsta kanālu atkopšanu no sēklas. Jums būs jāizveido maciņa rezerves kopija katru reizi, kad veidojat jaunu kanālu. Vai izveidot Lightning atslēgas?"
 ""
 
 #: electrum/gui/qt/wizard/wallet.py:916

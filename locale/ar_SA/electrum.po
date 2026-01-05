@@ -274,9 +274,7 @@ msgstr "أسبوع واحد"
 
 #: electrum/plugins/revealer/qt.py:608
 msgid "1. Place this paper on a flat and well illuminated surface."
-msgstr "\n"
-"\n"
-"ضع هذه الورقة على سطح مستوٍ وإمضاء جيدا"
+msgstr "ضع هذه الورقة على سطح مستوٍ وإمضاء جيدا"
 
 #: electrum/invoices.py:68
 msgid "10 minutes"

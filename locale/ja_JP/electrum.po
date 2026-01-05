@@ -377,7 +377,7 @@ msgid "Add extra data to your channel funding transactions, so that a static bac
 "If this is enabled, other nodes cannot open a channel to you. Channel recovery data is encrypted, so that only your wallet can decrypt it. However, blockchain analysis will be able to tell that the transaction was probably created by Electrum."
 msgstr "チャネル資金追加トランザクションにデータを追加して、静的バックアップをシードから復元できるようにします。\n\n"
 "静的バックアップでは、リモート ノードとの強制クローズの要求のみが可能になることに注意してください。これは、リモート ノードがまだオンラインであり、データを失っておらず、チャネルの強制終了を受け入れることを前提としています。\n\n"
-"これが有効になっている場合、他のノードはチャネルを開くことができません。チャネル回復データは暗号化されているため、あなたのウォレットでのみ復号できます。ただし、ブロックチェーン分析により、トランザクションが Electrum によって作成された可能性が高いことがわかります。\n"
+"これが有効になっている場合、他のノードはチャネルを開くことができません。チャネル回復データは暗号化されているため、あなたのウォレットでのみ復号できます。ただし、ブロックチェーン分析により、トランザクションが Electrum によって作成された可能性が高いことがわかります。"
 ""
 
 #: electrum/gui/qt/wizard/wallet.py:1110
@@ -483,7 +483,7 @@ msgstr "この遅延の後、資金はあなたのウォレットシードから
 
 #: electrum/gui/messages.py:69
 msgid "After the funding transaction is mined, the server will reveal the preimage needed to fulfill the pending received lightning HTLCs. The HTLCs expire in {} blocks. You will need to be online after the funding transaction is confirmed but before the HTLCs expire, to claim your money. If you go offline for several days while the swap is pending, you risk losing the swap amount!"
-msgstr "資金追加トランザクションがマイニングされた後、サーバーは保留中の受信 Lightning HTLC を実行するために必要なプリイメージを公開します。HTLC は {} ブロックで期限切れになります。資金を受け取るためには、資金追加トランザクションがマイニングされた後、HTLC が期限切れになる前にオンラインになっている必要があります。スワップが保留中に数日間オフラインになると、スワップ金額分の資金を失うリスクがあります!\n"
+msgstr "資金追加トランザクションがマイニングされた後、サーバーは保留中の受信 Lightning HTLC を実行するために必要なプリイメージを公開します。HTLC は {} ブロックで期限切れになります。資金を受け取るためには、資金追加トランザクションがマイニングされた後、HTLC が期限切れになる前にオンラインになっている必要があります。スワップが保留中に数日間オフラインになると、スワップ金額分の資金を失うリスクがあります!"
 ""
 
 #: electrum/plugins/timelock_recovery/qt.py:547
@@ -623,7 +623,7 @@ msgstr "名無しの {}"
 msgid "Another instance of this wallet (same seed) has an open channel with the same remote node. If you create this channel, you will not be able to use both wallets at the same time.\n\n"
 "Are you sure?"
 msgstr "このウォレットの別のインスタンス (同じシード) には、同じリモート ノードとのオープン チャネルがあります。このチャネルを作成すると、両方のウォレットを同時に使用できなくなります。\n\n"
-"よろしいですか?\n"
+"よろしいですか?"
 ""
 
 #: electrum/gui/qt/settings_dialog.py:409
@@ -3829,7 +3829,7 @@ msgstr "ライトニングの鍵が初期化されました。"
 msgid "Lightning payments require finding a path through the Lightning Network. You may use trampoline routing, or local routing (gossip).\n\n"
 "Downloading the network gossip uses quite some bandwidth and storage, and is not recommended on mobile devices. If you use trampoline, you can only open channels with trampoline nodes."
 msgstr "ライトニング 支払いには、ライトニング ネットワークを経由するパスを見つける必要があります。トランポリン ルーティングまたはローカル ルーティング (ゴシップ) を使用できます。\n\n"
-"ネットワーク ゴシップのダウンロードにはかなりの帯域幅とストレージが使用されるため、モバイル デバイスでは推奨されません。トランポリンを使用する場合は、トランポリン ノードを持つチャネルのみを開くことができます。\n"
+"ネットワーク ゴシップのダウンロードにはかなりの帯域幅とストレージが使用されるため、モバイル デバイスでは推奨されません。トランポリンを使用する場合は、トランポリン ノードを持つチャネルのみを開くことができます。"
 ""
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:260

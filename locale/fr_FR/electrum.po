@@ -1010,8 +1010,7 @@ msgstr ""
 
 #: electrum/plugins/timelock_recovery/qt.py:585
 msgid "Cancellation Transaction ID"
-msgstr "edbd3224d120d8304d2194287c4b267707b50b2be46a78409d701327d9d47476\n"
-""
+msgstr "edbd3224d120d8304d2194287c4b267707b50b2be46a78409d701327d9d47476"
 
 #: electrum/plugins/timelock_recovery/qt.py:309
 msgid "Cancellation time-window (days)"
